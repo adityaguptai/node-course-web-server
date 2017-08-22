@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+<h1>Register</h1>
+
+<form>
+<label for="fname">First Name:</label>
+<input  type="text" id="fname" placeholder="John" required>
+<label for="lname">Last Name:</label>
+<input  type="text" id="lname" placeholder="Smith" required>
+<br>
+Male<input type="radio" id="Male" name="Gender" value="male">
+Female<input type="radio" id="Female" name="Gender" value="female">
+Other<input type="radio" id="Other" name="Gender" value="other">
+<br>
+<label for="email">Username:</label>
+<input  type="text" id="email" placeholder="your email" required>
+<label for="lname">Password:</label>
+<input  type="password" id="password" placeholder="your password">
+<br>
+Birthday: <input type="date" name="date">
+<br>
+I agree to the terms and conditions <input type="checkbox" name="agree">
+<br>
+<button >Submit</button>
+<!-- <label for="fname">First Name:</label> -->
+<!-- <footer>{{name}}</footer> -->
+<footer>
+<p>{{footer}}</p>
+</footer>
+</form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+h1{
+	text-align: center;
+}
+table{
+	margin: 50px auto;
+	font-size: 100px;
+}
+td{
+	height: 100px;
+	width: 100px;
+}
+td:nth-of-type(2){
+	/*color: blue;*/
+	border-left: 2px solid;
+	border-right: 2px solid;
+}
+.middle td{
+	/*color: blue;*/
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+}
