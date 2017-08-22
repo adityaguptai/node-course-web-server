@@ -1,5 +1,8 @@
 const express = require('express');
 const hbs = require('hbs');
+const fs = require('fs');
+
+const port = process.env.PORT || 3000;
 
 var app = express();
 
@@ -41,4 +44,10 @@ app.get('/obj',(req,res)=>{
   });
 });
 
-app.listen(3000);
+app.listen(port,() => {
+  console.log(`Server is up on ${port}`);
+});
+
+//to move to project forder in Git Bash
+//cd a:
+//cd Academics/Programming/Web\ Dev/Node/4\ Node-Web-Server/
